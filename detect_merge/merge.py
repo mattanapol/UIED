@@ -101,15 +101,15 @@ def refine_elements(compos, texts, intersection_bias=(2, 2), containment_ratio=0
                 if iob >= containment_ratio and compo.category != 'Block':
                     contained_texts.append(text)
         if is_valid and text_area / compo.area < containment_ratio:
-            # for t in contained_texts:
-            #     t.parent_id = compo.id
+            for t in contained_texts:
+                t.parent_id = compo.id
             # compo.children += contained_texts
             elements.append(compo)
 
-    # elements += texts
-    for text in texts:
-        if text not in contained_texts:
-            elements.append(text)
+    elements += texts
+    # for text in texts:
+    #     if text not in contained_texts:
+    #         elements.append(text)
     return elements
 
 
@@ -189,7 +189,7 @@ def compos_clip_and_fill(clip_root, org, compos):
     cv2.imwrite(pjoin(clip_root, 'bkg.png'), bkg)
 
 
-def merge(img_path, compo_path, text_path, merge_root=None, is_paragraph=False, is_remove_bar=True, show=False, wait_key=0):
+def merge(img_path, compo_path, text_path, merge_root=None, is_paragraph=False, is_remove_bar=True, show=False, wait_key=1):
     compo_json = json.load(open(compo_path, 'r'))
     text_json = json.load(open(text_path, 'r'))
 

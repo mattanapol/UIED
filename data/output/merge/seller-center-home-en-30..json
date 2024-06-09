@@ -1,0 +1,313 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Compo",
+            "height": 31,
+            "width": 30,
+            "position": {
+                "column_min": 39,
+                "row_min": 7,
+                "column_max": 69,
+                "row_max": 38
+            }
+        },
+        {
+            "id": 1,
+            "class": "Compo",
+            "height": 32,
+            "width": 96,
+            "position": {
+                "column_min": 70,
+                "row_min": 6,
+                "column_max": 166,
+                "row_max": 38
+            },
+            "children": [
+                10
+            ]
+        },
+        {
+            "id": 2,
+            "class": "Compo",
+            "height": 37,
+            "width": 136,
+            "position": {
+                "column_min": 601,
+                "row_min": 6,
+                "column_max": 737,
+                "row_max": 43
+            },
+            "children": [
+                21
+            ]
+        },
+        {
+            "id": 3,
+            "class": "Compo",
+            "height": 24,
+            "width": 20,
+            "position": {
+                "column_min": 745,
+                "row_min": 12,
+                "column_max": 765,
+                "row_max": 36
+            }
+        },
+        {
+            "id": 4,
+            "class": "Compo",
+            "height": 310,
+            "width": 366,
+            "position": {
+                "column_min": 432,
+                "row_min": 130,
+                "column_max": 798,
+                "row_max": 440
+            },
+            "children": [
+                9
+            ]
+        },
+        {
+            "id": 5,
+            "class": "Compo",
+            "height": 44,
+            "width": 97,
+            "position": {
+                "column_min": 332,
+                "row_min": 195,
+                "column_max": 429,
+                "row_max": 239
+            }
+        },
+        {
+            "id": 6,
+            "class": "Compo",
+            "height": 36,
+            "width": 80,
+            "position": {
+                "column_min": 165,
+                "row_min": 240,
+                "column_max": 245,
+                "row_max": 276
+            }
+        },
+        {
+            "id": 7,
+            "class": "Compo",
+            "height": 63,
+            "width": 297,
+            "position": {
+                "column_min": 99,
+                "row_min": 301,
+                "column_max": 396,
+                "row_max": 364
+            },
+            "children": [
+                15,
+                16,
+                17,
+                18,
+                19
+            ]
+        },
+        {
+            "id": 8,
+            "class": "Compo",
+            "height": 43,
+            "width": 226,
+            "position": {
+                "column_min": 99,
+                "row_min": 378,
+                "column_max": 325,
+                "row_max": 421
+            },
+            "children": [
+                20
+            ]
+        },
+        {
+            "id": 9,
+            "class": "Compo",
+            "height": 45,
+            "width": 16,
+            "position": {
+                "column_min": 494,
+                "row_min": 311,
+                "column_max": 510,
+                "row_max": 356
+            },
+            "parent": 4
+        },
+        {
+            "id": 10,
+            "class": "Text",
+            "height": 11,
+            "width": 92,
+            "position": {
+                "column_min": 73,
+                "row_min": 24,
+                "column_max": 165,
+                "row_max": 35
+            },
+            "text_content": "Seller Center",
+            "parent": 1
+        },
+        {
+            "id": 11,
+            "class": "Text",
+            "height": 23,
+            "width": 217,
+            "position": {
+                "column_min": 101,
+                "row_min": 105,
+                "column_max": 318,
+                "row_max": 128
+            },
+            "text_content": "Sell online with"
+        },
+        {
+            "id": 12,
+            "class": "Text",
+            "height": 21,
+            "width": 144,
+            "position": {
+                "column_min": 101,
+                "row_min": 153,
+                "column_max": 245,
+                "row_max": 174
+            },
+            "text_content": "NocNoc ++"
+        },
+        {
+            "id": 13,
+            "class": "Text",
+            "height": 33,
+            "width": 321,
+            "position": {
+                "column_min": 101,
+                "row_min": 192,
+                "column_max": 422,
+                "row_max": 225
+            },
+            "text_content": "Marketplace for home"
+        },
+        {
+            "id": 14,
+            "class": "Text",
+            "height": 26,
+            "width": 144,
+            "position": {
+                "column_min": 101,
+                "row_min": 243,
+                "column_max": 245,
+                "row_max": 269
+            },
+            "text_content": "and living"
+        },
+        {
+            "id": 15,
+            "class": "Text",
+            "height": 11,
+            "width": 291,
+            "position": {
+                "column_min": 101,
+                "row_min": 302,
+                "column_max": 392,
+                "row_max": 313
+            },
+            "text_content": "NocNoc , a one stop marketplace with over 700,000 home",
+            "parent": 7
+        },
+        {
+            "id": 16,
+            "class": "Text",
+            "height": 10,
+            "width": 226,
+            "position": {
+                "column_min": 101,
+                "row_min": 319,
+                "column_max": 327,
+                "row_max": 329
+            },
+            "text_content": "products and services across 500 categories .",
+            "parent": 7
+        },
+        {
+            "id": 17,
+            "class": "Text",
+            "height": 10,
+            "width": 102,
+            "position": {
+                "column_min": 101,
+                "row_min": 334,
+                "column_max": 203,
+                "row_max": 344
+            },
+            "text_content": "Join us to grow your",
+            "parent": 7
+        },
+        {
+            "id": 18,
+            "class": "Text",
+            "height": 10,
+            "width": 180,
+            "position": {
+                "column_min": 216,
+                "row_min": 334,
+                "column_max": 396,
+                "row_max": 344
+            },
+            "text_content": "commerce business nationwide and",
+            "parent": 7
+        },
+        {
+            "id": 19,
+            "class": "Text",
+            "height": 10,
+            "width": 163,
+            "position": {
+                "column_min": 101,
+                "row_min": 350,
+                "column_max": 264,
+                "row_max": 360
+            },
+            "text_content": "reach your sales targets with us .",
+            "parent": 7
+        },
+        {
+            "id": 20,
+            "class": "Text",
+            "height": 10,
+            "width": 183,
+            "position": {
+                "column_min": 111,
+                "row_min": 394,
+                "column_max": 294,
+                "row_max": 404
+            },
+            "text_content": "Create seller account In mins",
+            "parent": 8
+        },
+        {
+            "id": 21,
+            "class": "Text",
+            "height": 13,
+            "width": 115,
+            "position": {
+                "column_min": 613,
+                "row_min": 15,
+                "column_max": 728,
+                "row_max": 28
+            },
+            "text_content": "Create account / Log in",
+            "parent": 2
+        }
+    ],
+    "img_shape": [
+        444,
+        799,
+        3
+    ]
+}

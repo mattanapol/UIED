@@ -1,0 +1,6 @@
+ipykernel
+opencv-python
+Pandas
+numpy
+keras
+tensorflow

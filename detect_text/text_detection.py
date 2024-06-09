@@ -32,7 +32,7 @@ def visualize_texts(org_img, texts, shown_resize_height=None, show=False, write_
 
     if show:
         cv2.imshow('texts', img_resize)
-        cv2.waitKey(0)
+        # cv2.waitKey(0)
         cv2.destroyWindow('texts')
     if write_path is not None:
         cv2.imwrite(write_path, img)
@@ -132,7 +132,7 @@ def text_detection(input_file='../data/input/30800.jpg', output_file='../data/ou
     :param method: google or paddle
     :param paddle_model: the preload paddle model for paddle ocr
     '''
-    start = time.clock()
+    start = time.process_time()
     name = input_file.split('/')[-1][:-4]
     ocr_root = pjoin(output_file, 'ocr')
     img = cv2.imread(input_file)
@@ -157,7 +157,7 @@ def text_detection(input_file='../data/input/30800.jpg', output_file='../data/ou
 
     visualize_texts(img, texts, shown_resize_height=800, show=show, write_path=pjoin(ocr_root, name+'.png'))
     save_detection_json(pjoin(ocr_root, name+'.json'), texts, img.shape)
-    print("[Text Detection Completed in %.3f s] Input: %s Output: %s" % (time.clock() - start, input_file, pjoin(ocr_root, name+'.json')))
+    print("[Text Detection Completed in %.3f s] Input: %s Output: %s" % (time.process_time() - start, input_file, pjoin(ocr_root, name+'.json')))
 
 
 # text_detection()

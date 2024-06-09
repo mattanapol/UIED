@@ -1,0 +1,139 @@
+{
+    "img_shape": [
+        566,
+        1019,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "NocNoc",
+            "column_min": 92,
+            "row_min": 11,
+            "column_max": 155,
+            "row_max": 26,
+            "width": 63,
+            "height": 15
+        },
+        {
+            "id": 1,
+            "content": "Seller Center",
+            "column_min": 94,
+            "row_min": 31,
+            "column_max": 211,
+            "row_max": 45,
+            "width": 117,
+            "height": 14
+        },
+        {
+            "id": 2,
+            "content": "Sell online with",
+            "column_min": 130,
+            "row_min": 134,
+            "column_max": 406,
+            "row_max": 164,
+            "width": 276,
+            "height": 30
+        },
+        {
+            "id": 3,
+            "content": "NocNoc ++",
+            "column_min": 129,
+            "row_min": 196,
+            "column_max": 313,
+            "row_max": 223,
+            "width": 184,
+            "height": 27
+        },
+        {
+            "id": 4,
+            "content": "Marketplace for home",
+            "column_min": 130,
+            "row_min": 246,
+            "column_max": 539,
+            "row_max": 288,
+            "width": 409,
+            "height": 42
+        },
+        {
+            "id": 5,
+            "content": "and living",
+            "column_min": 130,
+            "row_min": 311,
+            "column_max": 313,
+            "row_max": 344,
+            "width": 183,
+            "height": 33
+        },
+        {
+            "id": 6,
+            "content": "NocNoc , a one stop marketplace with over 700,000 home",
+            "column_min": 130,
+            "row_min": 386,
+            "column_max": 500,
+            "row_max": 400,
+            "width": 370,
+            "height": 14
+        },
+        {
+            "id": 7,
+            "content": "products and services across 500 categories .",
+            "column_min": 130,
+            "row_min": 407,
+            "column_max": 418,
+            "row_max": 420,
+            "width": 288,
+            "height": 13
+        },
+        {
+            "id": 8,
+            "content": "Join us to grow your",
+            "column_min": 129,
+            "row_min": 426,
+            "column_max": 259,
+            "row_max": 439,
+            "width": 130,
+            "height": 13
+        },
+        {
+            "id": 9,
+            "content": "commerce business nationwide and",
+            "column_min": 276,
+            "row_min": 426,
+            "column_max": 506,
+            "row_max": 439,
+            "width": 230,
+            "height": 13
+        },
+        {
+            "id": 10,
+            "content": "reach your sales targets with us .",
+            "column_min": 130,
+            "row_min": 447,
+            "column_max": 337,
+            "row_max": 459,
+            "width": 207,
+            "height": 12
+        },
+        {
+            "id": 11,
+            "content": "Create seller account In mins",
+            "column_min": 142,
+            "row_min": 503,
+            "column_max": 375,
+            "row_max": 516,
+            "width": 233,
+            "height": 13
+        },
+        {
+            "id": 12,
+            "content": "Create account / Log in",
+            "column_min": 782,
+            "row_min": 20,
+            "column_max": 929,
+            "row_max": 36,
+            "width": 147,
+            "height": 16
+        }
+    ]
+}
